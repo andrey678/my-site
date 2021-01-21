@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
+    <title>Портфолио Junior верстальщика</title>
+  </head>
+
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <!--Контакты в шапке(шапка сайта — тут можно разместить ваши контакты)-->
+         <a class="header-email" href="mailto:andrey.spesivtsev@hotmail.com">andrey.spesivtsev@hotmail.com</a>
+         <a class="header-phone" href="tel:+7987654321">+7987654321</a>
+      </div>
+    </header>
+
+    <section class="hero-image">
+      <div class="container">
+        <!-- (вступительный раздел — здесь написаны ваше имя и профессия;)-->
+        <h1 class="heading">Андрей Спесивцев</h1>
+        <p>Junior верстальщик</p>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="container">
+        <!--(текстовый раздел — тут вы можете развёрнуто рассказать о себе, здесь же позже подключим вашу фотографию;)-->
+        <h2 class="subheading">Давайте познакомимся</h2>
+        <figure class="user-image">
+          <img src="files/user.jpg" width="928" height="536" alt="Фотография Неопознанного Енота">
+        </figure>
+        
+        <div>
+           <h3>Пара слов о себе</h3>
+          <p>Начинающий веб-разработчик, хочу развиваться в направлении full stack.Имею опыт работы c Ruby, Rails, Git, HTML, CSS, SQLite, PostgreSQL.В марте 2020 начал осваивать веб разработку. Прошёл курс по программированию на Ruby на сайте rubyschool.us от Романа Пушкина. После первых первых нескольких уроков, ещё работая в розничной сети, для себя написал небольшой скрипт для составления отчёта по продажам. Далее занимался только учебными проектами на этом курсе. Там я получил базовые навыки работы с фреймворком Sinatra, Rails.Работал с базой данных SQLite.Получил опыт работы с HTTP запросами.Также научился работать с системой контроля версий Git.</p>
+
+          <p>Далее обучался по книге Джей Макгаврен "Ruby Head First". Освоил ООП, HTML, YAML.После завершения обучения по этой книге написал небольшое приложение для хранения данных ежемесячных планов по продажам.</p>
+
+          <p>Прошёл обучение по книге Майкла Хартла "The Ruby on Rails Tutorial".Знаю как ведётся разработка через тестирование. Мне понятно, как разворачивать приложение на сервере. Узнал многое об аутентификации, устройстве временных сессий, применении cookie для запоминания пользователей и многое другое.</p>
+
+          <p>Сейчас обучаюсь вёрстке на HTML, CSS (HTML Academy).
+          Параллельно обучению планирую написать своё приложение, используя уже изученный материал.</p>
+
+          <p>Потом в планах освоить шаблоны проектирования по книге "Приемы ООП. Паттерны проектирования"(Erich Gamma, Richard Helm), затем перейти к изучению работы с очередями запросов в Redis и Sidekiq и проектированию бизнес-процессов в BPMN.</p>
+
+          <p>Опыта коммерческой разработки не имею.</p>
+
+          <p>Ссылка на GitHub: https://github.com/andrey678
+          По данной ссылке учебные проекты с курса.</p>
+
+          <p>Ссылка на Bitbucket:https://bitbucket.org/_drew
+          По данной ссылке старые приложения и учебный проект по М. Хартлу.</p>
+
+          <p>Буду рад получить приглашение на собеседование.</p>
+        </div>
+          <div>
+          <h3>Чем могу быть полезен</h3>
+        
+        Текст о том, чем могу быть полезен.
+        <!-- <ul>
+          <li> Ruby (начальный уровень);</li>
+          <li> Владею базовыми навыками программирования в фреймворке Rails, Sinatra;</li>
+          <li> Базовые знания языков разметки: HTML, CSS;</li>
+          <li> Знаком с системой контроля версий Git;</li>
+          <li> SQLite3;PostgreSQL (начальный уровень)</li>
+        </ul> -->
+
+      </div>
+        <!-- Блок навыыков будет тут-->
+        <div class="skills">
+          <h3>Мои навыки</h3>
+          <dl class="skills-list">
+            <dt class="skill-html">HTML</dt>
+            <dd class="level">
+              <div style="width: 60%;">60%</div>
+            </dd>
+            
+            <dt class="skill-css">CSS</dt>
+            <dd class="level">
+              <div style="width: 40%;">40%</div>
+            </dd>
+          </dl>
+        </div>
+    </div>
+    </section>
+
+    <section class="portfolio">
+      <div class="container">
+        <!--(ещё один текстовый раздел — здесь будут размещены примеры ваших работ с коротким описанием и картинками;)-->
+        <h2 class="subheading">Мои работы</h2>
+        <figure class="project-image"><img src="files/project.jpg" width="928" height="536" alt="Сайт инструктора Кекса"></figure>
+        <h3>Сайт инструктора Кекса</h3>
+          <p>Небольшой лендинг о школе для начинающих.</p>
+          <a class="button" href="source/project/index.html">Открыть страницу</a>
+
+        <h3>Блог начинающего верстальщика</h3>
+          <p>Статический блог про обучение HTML и CSS.</p>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <div class="container">
+        <!--(подвал сайта — тут тоже могут быть ваши контакты.)-->
+        <a class="footer-email" href="mailto:andrey.spesivtsev@hotmail.com">andrey.spesivtsev@hotmail.com</a>
+         <a class="footer-phone" href="tel:+7987654321">+7987654321</a> 
+      </div>    
+    </footer>
+  </body>
+</html>
