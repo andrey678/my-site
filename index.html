@@ -6,13 +6,12 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
     <title>Портфолио Junior верстальщика</title>
   </head>
-
   <body>
     <header class="page-header">
       <div class="container">
         <!--Контакты в шапке(шапка сайта — тут можно разместить ваши контакты)-->
          <a class="header-email" href="mailto:andrey.spesivtsev@hotmail.com">andrey.spesivtsev@hotmail.com</a>
-         <a class="header-phone" href="tel:+7987654321">+7987654321</a>
+         <a class="header-phone" href="tel:123456789">123456789</a>
       </div>
     </header>
 
@@ -23,88 +22,147 @@
         <p>Junior верстальщик</p>
       </div>
     </section>
-
     <section class="intro">
       <div class="container">
-        <!--(текстовый раздел — тут вы можете развёрнуто рассказать о себе, здесь же позже подключим вашу фотографию;)-->
+        
         <h2 class="subheading">Давайте познакомимся</h2>
+        
         <figure class="user-image">
           <img src="files/user.jpg" width="928" height="536" alt="Фотография Неопознанного Енота">
         </figure>
         
-        <div>
-           <h3>Пара слов о себе</h3>
-          <p>Начинающий веб-разработчик, хочу развиваться в направлении <b>full stack</b>. Имею опыт работы c <b>Ruby, Rails, Git, HTML, CSS, SQLite, PostgreSQL</b>. В марте 2020 начал осваивать веб разработку. Прошёл курс по программированию на Ruby на сайте <a class="site-link" href="http://rubyschool.us/">rubyschool.us</a> от <cite>Романа Пушкина</cite>. После первых первых нескольких уроков, ещё работая в розничной сети, для себя написал небольшой скрипт для составления отчёта по продажам. Далее занимался только учебными проектами на этом курсе. Там я получил базовые навыки работы с фреймворком <b>Sinatra, Rails</b>. Работал с базой данных <b>SQLite</b>. Получил опыт работы с <b>HTTP запросами</b>. Также научился работать с системой контроля версий <b>Git</b>.</p>
-
-          <p>Далее обучался по книге <cite>Джей Макгаврен</cite> <q>Ruby Head First</q>. Освоил <b>ООП, HTML, YAML</b>. После завершения обучения по этой книге написал небольшое приложение для хранения данных ежемесячных планов по продажам.</p>
-
-          <p>Прошёл обучение по книге <cite>Майкла Хартла</cite> <q>The Ruby on Rails Tutorial</q>. Знаю как ведётся разработка через тестирование. Мне понятно, как разворачивать приложение на сервере. Узнал многое об аутентификации, устройстве временных сессий, применении cookie для запоминания пользователей и многое другое.</p>
-
-          <p>Сейчас обучаюсь вёрстке на <b>HTML, CSS (HTML Academy)</b>.
-          Параллельно обучению планирую написать своё приложение, используя уже изученный материал.</p>
-
-          <p>Потом в планах освоить шаблоны проектирования по книге <q>Приемы ООП. Паттерны проектирования"</q> от <cite>Erich Gamma, Richard Helm</cite>, затем перейти к изучению работы с очередями запросов в <b>Redis</b> и <b>Sidekiq</b> и проектированию бизнес-процессов в <b>BPMN</b>.</p>
-
-          <p>Опыта коммерческой разработки не имею.</p>
-
+        <div class="two_words_about">
+          <h3>Пара слов о себе</h3>
           <p>
-            <img class="github-logo" src="img/GitHub_Logo_White.png" width="100" alt="Лого GitHub">
-            <a class="site-link" href="https://github.com/andrey678">По данной ссылке учебные проекты с курсов из 
-            Rubyschool и 
-            HTML Academy.</a> 
+            Начинающий веб-разработчик, хочу развиваться в направлении <b>full stack</b>. Имею опыт работы c <b>Ruby, Rails, Git, HTML, CSS, SQLite, PostgreSQL</b>. В марте 2020 начал осваивать веб разработку. Прошёл курс по программированию на Ruby на сайте <a href="http://rubyschool.us/" target="_blank" title="Сайт Ruby-школы">rubyschool.us</a> от <cite>Романа Пушкина</cite>. После первых первых нескольких уроков, работая в розничной сети, для себя написал небольшой скрипт для составления отчёта по продажам. Далее занимался только учебными проектами на этом курсе. Там я получил базовые навыки работы с фреймворком <b>Sinatra, Rails</b>. Работал с базой данных <b>SQLite</b>. Получил опыт работы с <b>HTTP запросами</b>. Также научился работать с системой контроля версий <b>Git</b>.
           </p>
 
-          <p><img class="bitbucket-logo" src="img/Bitbucket.png" width="150" alt="Лого Bitbucket">
-            <a class="site-link" href="https://bitbucket.org/_drew">По данной ссылке старые приложения и учебный проект по <cite>М. Хартлу</cite>.</a></p>
+          <p>
+            Далее обучался по книге <cite><a class="show_image" href="https://g.co/kgs/VWyABN" target="_blank">Джей Макгаврен <q>Ruby Head First</q><span><img src="img/ruby.300x300.jpg" alt="Ruby book"></span></a></cite>. Освоил <b>ООП, HTML, YAML</b>. После завершения обучения по этой книге написал небольшое приложение для хранения данных ежемесячных планов по продажам.
+          </p>
 
-          <p>Буду рад получить приглашение на собеседование.</p>
-        </div>
-          <div>
-          <h3>Чем могу быть полезен</h3>
+          <p>
+            Прошёл обучение по книге <cite><a class="show_image" href="https://www.softcover.io/read/db8803f7/ruby_on_rails_tutorial_3rd_edition_russian" target="_blank">Michael Hartl <q>The Ruby on Rails Tutorial</q><span><img src="img/rails_book.png" height="420" width="280" alt="Rails book"></span></a></cite>. Знаю как ведётся разработка через тестирование. Мне понятно, как разворачивать приложение на сервере. Узнал многое об аутентификации, устройстве временных сессий, применении cookie для запоминания пользователей и многое другое.
+          </p>
+
+          <p>
+            Прошёл обучение по вёрстке на <b>HTML+CSS</b> в <cite><a href="https://htmlacademy.ru/" target="_blank">HTML Academy</a></cite>. В конце обучения был готов <a href="https://andrey678.github.io/my-site" target="_blank">этот сайт</a>.
+          </p>
+
+          <p>
+            Завершил курс <a href="https://www.freecodecamp.org/learn/responsive-web-design/" target="_blank" title="Страница курса Responsive Web Design"><u><q>Responsive Web Design Certification</q></u></a> в <a href="https://www.freecodecamp.org/" target="_blank" title="сайт freeCodeCamp"><cite>freeCodeCamp</cite></a>. Ознакомился с некоторыми <b>принципами адаптивности</b> при вёрстке сайтов, <b>анимацией</b>, а также инструментами <b>Flexbox</b> и <b>Grid</b>.
+          </p>
+
+          <p>В конце обучения были сданы эти проекты:</p>
+
+          <ul class="fcc_list">
+            <li><a href="https://cdpn.io/andrey1/debug/bGBdOPZ/YvMgOwwVyDRM" target="_blank" title="Первый проект">Tribute Page(project 1)</a></li>
+            <li><a href="https://cdpn.io/andrey1/debug/NWbdGQJ/nqMwvzzVZxyk" target="_blank" title="Второй проект">Survey Form(project 2)</a></li>
+            <li><a href="https://cdpn.io/andrey1/debug/mdOMbOK/ZoMBaLLXEXVk" target="_blank" title="Третий проект">Product Landing Page(project 3)</a></li>
+            <li><a href="https://cdpn.io/andrey1/debug/qBqVqMq/mWMoNzzKRNBk" target="_blank" title="Четвёртый проект">Technical Documentation Page(project 4)</a></li>
+            <li><a href="https://cdpn.io/andrey1/debug/OJbwVze/yPMJjRbPdqOM" target="_blank" title="Пятый проект">Personal Portfolio(project 5)</a></li>
+          </ul>
+
+          <p>
+            Сейчас обучаюсь по <a href="https://www.youtube.com/playlist?list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr" target="_blank" title="Плейлист на YouTube">видео урокам</a> на YouTube канале <a href="https://www.youtube.com/c/FreelancerLifeStyle" target="_blank" title="Сайт канала 'Фрилансер по жизни'"><q>Фрилансер по жизни - IT и фриланс</q></a>
+          </p> 
+
+          <p>
+            Сверстал первый макет. При вёрстке использовал <a href="https://www.markupeasy.ru/" target="_blank" title="Сайт онлайн инспектора PSD файлов Marsy"><b>Marsy</b></a> для работы с макетами, препроцессор <b>SASS/SCSS</b> для работы со стилями и компилятор <a href="https://prepros.io/" target="_blank" title="Сайт компилятора Prepros"><b>Prepros</b></a>.
+          </p>
+
+          <ul class="first_layout">
+            <li><a href="files/tajem_master.psd" target="_blank" title="Ссылка на файл PSD">Макет</a></li>
+            <li><a href="https://github.com/andrey678/layout_1_tajam" target="_blank" title="GitHub repository">Код</a></li>
+            <li><a href="https://andrey678.github.io/layout_1_tajam" target="_blank" title="GitHub Pages">Результат</a></li>
+          </ul>
+
+          <p>
+            Далее хочу изучить:
+          </p>
+             
+             <ul class="plan_list">
+               <li>Шаблоны проектирования по книге <q>Приемы ООП. Паттерны проектирования</q> от <cite>Erich Gamma, Richard Helm</cite></li>
+               <li>Работу с очередями запросов в <b>Redis</b> и <b>Sidekiq</b></li>
+               <li>Проектирование бизнес-процессов в <b>BPMN</b></li>
+             </ul>
+             
+          <p>Опыта коммерческой разработки не имею.</p>
         
-        Текст о том, чем могу быть полезен.
-        <!-- <ul>
-          <li> Ruby (начальный уровень);</li>
-          <li> Владею базовыми навыками программирования в фреймворке Rails, Sinatra;</li>
-          <li> Базовые знания языков разметки: HTML, CSS;</li>
-          <li> Знаком с системой контроля версий Git;</li>
-          <li> SQLite3;PostgreSQL (начальный уровень)</li>
-        </ul> -->
 
-      </div>
-        <!-- Блок навыыков будет тут-->
-        <div class="skills">
+        <ul class="list_of_links">
+          <li><a href="https://github.com/andrey678" target="_blank">Ссылка на учебные проекты с курсов из Rubyschool и HTML Academy.
+            </a></li>
+          <li><a  href="https://bitbucket.org/_drew" target="_blank">Ссылка на старые приложения и учебный проект по <cite>М. Хартлу</cite>.
+            </a></li>
+          <li><a  href="https://codepen.io/andrey1" target="_blank">Ссылка на код с курса на freeCodeCamp.
+            </a></li>
+        </ul>
+         
+        </div>
+        <!-- <div class="skills">
           <h3>Мои навыки</h3>
           <dl class="skills-list">
             <dt class="skill-html">HTML</dt>
             <dd class="level">
-              <div style="width: 60%;">60%</div>
+              <div style="width:60%;">60%</div>
             </dd>
             
             <dt class="skill-css">CSS</dt>
             <dd class="level">
-              <div style="width: 40%;">40%</div>
+              <div style="width:40%;">40%</div>
             </dd>
           </dl>
-        </div>
-    </div>
+        </div> -->
+      </div>
     </section>
+
+
 
     <section class="portfolio">
       <div class="container">
         <!--(ещё один текстовый раздел — здесь будут размещены примеры ваших работ с коротким описанием и картинками;)-->
         <h2 class="subheading">Мои работы</h2>
+        <figure class="project-image"><img src="https://i.imgur.com/X2ouRSB.png" width="928" height="536" alt="Tajam Layout"></figure>
+          <h3>Макет Tajam</h3>
+          <p>Первый свёрстанный макет. Лендинг из 9 секций.</p>
+          <a class="button" href="https://andrey678.github.io/layout_1_tajam" target="_blank">Открыть страницу</a>
+
+        <figure class="project-image"><img src="https://i.imgur.com/jRJNwLn.png" width="928" height="536" alt="Personal Portfolio"></figure>
+          <h3>Personal Portfolio(project 5, FreeCodeCamp)</h3>
+          <p>Портфолио.</p>
+          <a class="button" href="https://cdpn.io/andrey1/debug/OJbwVze/yPMJjRbPdqOM" target="_blank">Открыть страницу</a>
+
+        <figure class="project-image"><img src="https://imgur.com/LaiUYVt.png" width="928" height="536" alt="Technical Documentation Page"></figure>
+          <h3>Technical Documentation Page(project 4, FreeCodeCamp)</h3>
+          <p>Сайт для размещения технической документации .</p>
+          <a class="button" href="https://cdpn.io/andrey1/debug/qBqVqMq/mWMoNzzKRNBk" target="_blank">Открыть страницу</a>
+
+        <figure class="project-image"><img src="https://imgur.com/d6ujTf6.png" width="928" height="536" alt="Product Landing Page"></figure>
+          <h3>Product Landing Page(project 3, FreeCodeCamp)</h3>
+          <p>Лендинг с презентацией товара.</p>
+          <a class="button" href="https://cdpn.io/andrey1/debug/mdOMbOK/ZoMBaLLXEXVk" target="_blank">Открыть страницу</a>
+
+        <figure class="project-image"><img src="https://imgur.com/TPvotVc.png" width="928" height="536" alt="Survey Form"></figure>
+          <h3>Survey Form(project 2, FreeCodeCamp)</h3>
+          <p>Страница для опроса киноманов.</p>
+          <a class="button" href="https://cdpn.io/andrey1/debug/NWbdGQJ/nqMwvzzVZxyk" target="_blank">Открыть страницу</a>
+
+        <figure class="project-image"><img src="https://imgur.com/IWisamq.png" width="928" height="536" alt="Tribute Page"></figure>
+          <h3>Tribute Page(project 1, FreeCodeCamp)</h3>
+          <p>Страница с описанием платёжной системы.</p>
+          <a class="button" href="https://cdpn.io/andrey1/debug/bGBdOPZ/YvMgOwwVyDRM" target="_blank">Открыть страницу</a>
+
         <figure class="project-image"><img src="files/Instructor-Keks-site.jpg" width="928" height="536" alt="Сайт инструктора Кекса"></figure>
-        <h3>Сайт инструктора Кекса</h3>
+          <h3>Сайт инструктора Кекса</h3>
           <p>Небольшой лендинг о школе для начинающих.</p>
-          <a class="button" href="source/site-instruktora-keksa/index.html">Открыть страницу</a>
+          <a class="button" href="source/site-instruktora-keksa/index.html" target="_blank">Открыть страницу</a>
 
 
           <figure class="project-image"><img src="files/HTML-beginner-site.png" width="928" height="536" alt="Сайт инструктора Кекса"></figure>
-
-        <h3>Блог начинающего верстальщика</h3>
+          <h3>Блог начинающего верстальщика</h3>
           <p>Статический блог про обучение HTML и CSS.</p>
-          <a class="button" href="source/site-nachinayuschego-verstalschika/index.html">Открыть страницу</a>
+          <a class="button" href="source/site-nachinayuschego-verstalschika/index.html" target="_blank">Открыть страницу</a>
       </div>
     </section>
 
@@ -112,7 +170,7 @@
       <div class="container">
         <!--(подвал сайта — тут тоже могут быть ваши контакты.)-->
         <a class="footer-email" href="mailto:andrey.spesivtsev@hotmail.com">andrey.spesivtsev@hotmail.com</a>
-         <a class="footer-phone" href="tel:+7987654321">+7987654321</a> 
+         <a class="footer-phone" href="tel:123456789">123456789</a> 
       </div>    
     </footer>
   </body>

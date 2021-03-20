@@ -97,19 +97,96 @@ body {
   text-indent: 40px;
 }
 
-.site-link {
+.two_words_about a {
   color: #fea18d;
   text-decoration: none;
 }
-
-.github-logo  {
-  vertical-align: middle; 
+.fcc_list li{
+  list-style: none;
+}
+.fcc_list li:before{
+  content: '';
+  background: url('img/red_arrow.png')0 0 no-repeat;
+  width: 50px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  padding:  4px 10px 0 0;
 }
 
-.bitbucket-logo {
-  vertical-align: middle;
-  margin-right: 6px;
+.show_image{
+  position: relative;
+}
+.show_image span{
+  visibility: hidden;
+  position: absolute;
+  bottom:0;
+  
 
+}
+.show_image:hover span{
+  visibility: visible;
+}
+
+.first_layout li{
+    list-style: none;
+}
+.first_layout li:before{
+  content: '';
+  display: inline-block;
+  background: url('img/orange_arrow.png')0 0 no-repeat;
+  width: 25px;
+  height: 18px;
+  padding:  0 0 0 10px;
+  margin: 0 0 0 25px;
+  
+
+
+}
+.list_of_links{
+list-style: none;
+line-height: 70px;
+}
+.list_of_links li:nth-child(1):before{
+content:'';
+display:inline-block;
+width: 100px;
+height: 41px;
+background:url('img/GitHub_Logo_White.png')0 0 no-repeat;
+vertical-align: middle;
+padding: 10px 0 0 0;
+margin: 0  0 0 56px;
+}
+.list_of_links li:nth-child(2):before{
+content:'';
+display:inline-block;
+width: 150px;
+height: 21px;
+background:url('img/Bitbucket.png')0 0 no-repeat;
+padding: 0 0 0 6px;
+
+}
+.list_of_links li:nth-child(3):before{
+content:'';
+display:inline-block;
+width: 150px;
+height: 28px;
+background:url('img/codepen-logo.png')0 0 no-repeat;
+vertical-align: middle;
+padding: 0 0 0 6px;
+}
+.plan_list{
+list-style: none;
+line-height: 35px;
+}
+.plan_list li:before{
+  content: '';
+  display: inline-block;
+  background:url('img/green_arrow.png') 0 0 no-repeat;
+  width: 30px;
+  height: 34px;
+  vertical-align: middle;
+  padding: 5px 0 0 15px;
 }
 
 .skills-list {
