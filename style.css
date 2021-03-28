@@ -128,10 +128,10 @@ body {
   visibility: visible;
 }
 
-.first_layout li{
+.layout li{
     list-style: none;
 }
-.first_layout li:before{
+.layout li:before{
   content: '';
   display: inline-block;
   background: url('img/orange_arrow.png')0 0 no-repeat;
